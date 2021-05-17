@@ -6,3 +6,18 @@ Cycle_GAN을 이용한 사람얼굴<->애니얼굴 변환 모델 학습을 목�
 
 # 출력결과
 ![Imgur](https://i.imgur.com/Qy8aACr.png)
+
+<br>
+<br>
+
+# 실행
+
+~~~
+!python3 '/content/pytorch-CycleGAN/train.py' \
+   --mode 'train' \
+   --batch_size 4 \
+   --data_dir '/content/real2pocketmon' \
+   --ckpt_dir '/content/drive/MyDrive/checkpoint' \
+   --log_dir '/content/drive/MyDrive/log' \
+    --result_dir '/content/drive/MyDrive/result'
+~~~
